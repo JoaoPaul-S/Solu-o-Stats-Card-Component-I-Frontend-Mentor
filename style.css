@@ -30,15 +30,15 @@
         justify-content: flex-end;
         height: 365px;
         width: 460px;
+        background-color: var(--accent-color);
+        border-radius: 0px 7px 7px 0px;
     }
 
-    .overlay, img{
+    img{
         position: absolute;
         width: 460px;
         height: 365px;
-        background-color: var(--accent-color);
-        border-radius: 0px 7px 7px 0px;
-        opacity: 0.6;
+        mix-blend-mode: multiply;
     }
 
     .card{ 

@@ -28,15 +28,15 @@
         justify-content: flex-end;
         height: 200px;
         width: 235px;
+        background-color: var(--accent-color);
+        border-radius: 7px 7px 0px 0px;
     }
     
-    .overlay, img{
+    img{
         position: absolute;
         width: 235px;
         height: 200px;
-        background-color: var(--accent-color);
-        border-radius: 7px 7px 0px 0px;
-        opacity: 0.6;
+        mix-blend-mode: multiply;
     }
 
     .card{ 
